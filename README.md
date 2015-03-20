@@ -2,7 +2,7 @@
 
 node-poker-stack is a [node.js](http://nodejs.org) Texas Holdem game server and web client. Some notable features
 are real-time game-play and chat, multiple game rooms, support up to 10 players per room with a combination
-of human and bot players, and built on top of the [Pomelo](http://github.com/NetEase/pomelo) game server framework.
+of human and bot players.
 
 ## Features
 
@@ -26,9 +26,9 @@ of human and bot players, and built on top of the [Pomelo](http://github.com/Net
 
 ### Whats missing?
 
-* Currently, user and table information is persisted to file store.
-* The web browser client could be improved (uses vanilla bootstrap.js).
-* Can add more client platforms (android, ios, phonegap, etc).
+* User and table data is persisted to file store rather than database.
+* Web browser client could be improved (uses vanilla bootstrap.js).
+* Add more client platforms (android, ios, phonegap, etc).
 
 ## Instructions
 
