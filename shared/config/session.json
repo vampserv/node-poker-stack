@@ -1,0 +1,4 @@
+{
+	"secret": "poker-game-session-secret",
+	"expire": 21600000
+}

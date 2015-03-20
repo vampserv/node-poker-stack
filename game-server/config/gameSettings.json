@@ -1,0 +1,10 @@
+{
+    "gameMode" : {
+        "normal" : {
+            "timeout" : 30
+        },
+        "fast" : {
+            "timeout" : 15
+        }
+    }
+}

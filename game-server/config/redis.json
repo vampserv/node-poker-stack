@@ -1,0 +1,7 @@
+{
+    "host" : "localhost",
+    "port" : 6379,
+    "opts" : {
+        "auth_pass" : "secretredispass"
+    }
+}

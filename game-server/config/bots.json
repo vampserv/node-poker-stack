@@ -1,0 +1,63 @@
+{
+    "config" : {
+        "enabled" : true,
+        "joinInterval" : {
+            "min" : 3,
+            "max" : 3
+        },
+        "actionInterval" : {
+            "min" : 1,
+            "max" : 3
+        },
+        "gamesToPlay" : {
+            "min" : 1,
+            "max" : 1
+        },
+        "buyIn" : 1000,
+        "minBots" : 7,
+        "minPlayers" : 3,
+        "validateChips" : false
+    },
+    "bots" : [
+        {
+            "username": "bot1",
+            "password": "bot1",
+            "email": "bot1@poker-stack.com"
+        },
+        {
+            "username": "bot2",
+            "password": "bot2",
+            "email": "bot2@poker-stack.com"
+        },
+        {
+            "username": "bot3",
+            "password": "bot3",
+            "email": "bot3@poker-stack.com"
+        },
+        {
+            "username": "bot4",
+            "password": "bot4",
+            "email": "bot4@poker-stack.com"
+        },
+        {
+            "username": "bot5",
+            "password": "bot5",
+            "email": "bot5@poker-stack.com"
+        },
+        {
+            "username": "bot6",
+            "password": "bot6",
+            "email": "bot6@poker-stack.com"
+        },
+        {
+            "username": "bot7",
+            "password": "bot7",
+            "email": "bot7@poker-stack.com"
+        },
+        {
+            "username": "bot8",
+            "password": "bot8",
+            "email": "bot8@poker-stack.com"
+        }
+    ]
+}

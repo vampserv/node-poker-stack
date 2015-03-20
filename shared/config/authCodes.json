@@ -1,0 +1,23 @@
+{
+    "OK"           : 200,
+    "FAILED"       : 500,
+    "BAD_REQUEST"  : 400,
+    "UNAUTHORIZED" : 401,
+    "FORBIDDEN"    : 403,
+    "ENTRY" : {
+        "TOKEN_INVALID"  : 1001,
+        "TOKEN_EXPIRE"   : 1002,
+        "USER_NOT_EXIST" : 1003
+    },
+
+    "GATE" : {
+        "NO_SERVER_AVAILABLE" : 2001
+    },
+
+    "CHAT" : {
+        "CHANNEL_CREATE"    : 3001,
+        "CHANNEL_NOT_EXIST" : 3002,
+        "UNKNOWN_CONNECTOR" : 3003,
+        "USER_NOT_ONLINE"   : 3004
+    }
+}

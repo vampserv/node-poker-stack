@@ -1,0 +1,31 @@
+.navbar-default .btn{margin-right:5px}
+.panel-heading .btn-default.pull-right{margin:-5px;margin-left:15px}
+.msg-text.error{color:#FF0000}
+
+#user-list-container .list-group{margin:0}
+#user-list-container .panel-body{padding:0}
+#user-list-container .list-group-item.is-me{background:#d9edf7;border-radius:0}
+
+#chat-container .panel-body{padding:0 2px}
+#chat-container textarea{border:none;background:none;width:100%;padding:3px;height:58px;margin-top:10px;border-top:solid 1px #ccc}
+#chat-area{height:130px;overflow-y:auto}
+#chat-area .nick{padding:0 4px;font-weight:bold}
+#chat-area .msg-text{margin-left:5px}
+
+#history-container .panel-body{padding:0 2px}
+#history-area{min-height:100px;max-height:160px;overflow-y:auto}
+
+#poker-container h4{font-size:24px;color:#888;text-align:center;margin:20px auto}
+#poker-container .panel-body .panel img{height:100px}
+#poker-container .panel-body .panel .btn-primary{margin:10px 0}
+#poker-container .panel-body .panel .btn-primary.input-group-addon{background-color:#428bca;border-color:#357ebd;padding:6px 12px}
+#poker-container .panel-body .panel .btn-primary.input-group-addon, .btn-primary.input-group-addon:hover{color:#fff}
+
+#friend-list-container .list-group{margin:0}
+#friend-list li{padding:4px 15px}
+#friend-results-list{margin:15px 0 0 0;padding:0}
+
+#messenger-area{height:200px;overflow-y:auto;border: 1px solid #ccc}
+#messenger-area .nick{padding:0 4px;font-weight:bold}
+#messenger-area .msg-text{margin-left:5px}
+#messenger-chatbox{background:none;width:100%;padding:10px;margin-top:10px;border:solid 1px #ccc}
