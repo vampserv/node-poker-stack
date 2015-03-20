@@ -16,7 +16,7 @@ of human and bot players.
 * Rudimentary friend system to check whether friends are online, chat, and join their games.
 * A basic web client server is available (node.js + backbone.js + websocket web browser client).
 
-### Built using Pomelo.
+### Built Using Pomelo
 
 * Real-time communication between server and client.
 * Distributed architecture to scale painlessly.
@@ -24,7 +24,7 @@ of human and bot players.
 * SDKs for a variety of clients (javascript, flash, android, iOS, cocos2d-x, C).
 * See [Pomelo Framework](http://github.com/NetEase/pomelo) for more information.
 
-### Whats missing?
+### Whats Missing?
 
 * User and table data is persisted to file store rather than database.
 * Web browser client could be improved (uses vanilla bootstrap.js).
