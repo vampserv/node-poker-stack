@@ -21,7 +21,7 @@ of human and bot players, and built on top of the [Pomelo](http://github.com/Net
 * Real-time communication between server and client.
 * Distributed architecture to scale painlessly.
 * Pluggable architecture to easily add new features.
-* Client support for a variety of clients (javascript, flash, android, iOS, cocos2d-x, C).
+* SDKs for a variety of clients (javascript, flash, android, iOS, cocos2d-x, C).
 * See [Pomelo Framework](http://github.com/NetEase/pomelo) for more information.
 
 ### Whats missing?
