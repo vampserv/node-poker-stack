@@ -32,7 +32,15 @@ of human and bot players.
 
 ## Instructions
 
-1. coming soon!
+1. git clone https://github.com/vampserv/node-poker-stack.git
+2. ./npm-install.sh
+3. node game-server/app
+4. open another terminal window
+5. node web-server/app
+6. go to http://localhost:3002 to access web client
+7. register a new user and login
+8. create a game room, join the game, and wait
+9. bots will join the game to play
 
 
 ## License
