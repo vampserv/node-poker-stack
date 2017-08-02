@@ -1,7 +1,7 @@
 {
-    "author": "Edward Yang",
+	"author": "Edward Yang",
 	"name": "poker-game-stack-webclient",
-    "description": "Texas Holdem poker game web client",
+	"description": "Texas Holdem poker game web client",
 	"version": "0.0.1",
 	"private": false,
 	"dependencies": {
