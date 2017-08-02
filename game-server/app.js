@@ -26,6 +26,18 @@ app.configure('production|development', 'chat', function(){
     app.set('chatService', new ChatService(app));
 });
 
+app.configure('production|development', function() {
+	app.set('connectorConfig', {
+		connector: pomelo.connectors.sioconnector,
+		// 'websocket', 'polling-xhr', 'polling-jsonp', 'polling'
+		transports: ['websocket', 'polling'],
+		heartbeats: true,
+		closeTimeout: 60 * 1000,
+		heartbeatTimeout: 60 * 1000,
+		heartbeatInterval: 25 * 1000
+	});
+});
+
 //var timeReport = require('./app/module/timeReport');
 //app.registerAdmin(timeReport, {app: app});
 

@@ -6,7 +6,6 @@ require.config({
         "backbone"          : "libs/backbone-min",
         "bootstrap"         : "libs/bootstrap.min",
         "pomeloclient"      : "libs/pomeloclient",
-        "socketio"          : "libs/socket.io",
         "resources"         : 'libs/resources'
 
     },
@@ -15,7 +14,7 @@ require.config({
             "deps"    : ["jquery"]
         },
         "backbone" : {
-            deps : ['bootstrap', 'pomeloclient', 'socketio']
+            deps : ['bootstrap', 'pomeloclient']
         }
     }
 });
