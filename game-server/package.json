@@ -5,11 +5,8 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "pomelo": "~1.0.0",
-    "crc": "0.2.0",
     "hoyle": "^0.2.2",
-    "node-uuid": "^1.4.1",
-    "pomelo-logger": "^0.1.6",
-    "redis": "^0.12.1"
+    "pomelo": "^2.2.5",
+    "redis": "^2.7.1"
   }
 }
